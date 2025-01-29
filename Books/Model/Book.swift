@@ -16,9 +16,9 @@ struct Book: Identifiable,Hashable {
 
 
 var sampleBooks: [Book] = [
-    .init(title: "The Alchemist", imageName: "Book1", author: "Paulo Coelho"),
-    .init(title: "1984", imageName: "Book2", author: "George Orwell"),
-    .init(title: "To Kill a Mockingbird", imageName: "Book3", author: "Harper Lee"),
-    .init(title: "The Great Gatsby", imageName: "Book4", author: "F. Scott Fitzgerald"),
-    .init(title: "The Hobbit", imageName: "Book5", author: "J.R.R. Tolkien"),
+    .init(title: "ひとつめ", imageName: "Book1", author: "ひとりめ"),
+    .init(title: "ふたつめ", imageName: "Book2", author: "ふたりめ"),
+    .init(title: "みっつめ", imageName: "Book3", author: "さんにんめ"),
+    .init(title: "よっつめ", imageName: "Book4", author: "よにんめ"),
+    .init(title: "いつつめ", imageName: "Book5", author: "ごにんめ"),
 ]

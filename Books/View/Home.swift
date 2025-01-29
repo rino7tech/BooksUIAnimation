@@ -42,7 +42,12 @@ struct Home: View {
                                 .offset(x: CGFloat(currentIndex) * -(size.width + 30))
                                 .opacity(currentIndex == index ? 1 : 0)
                                 .animation(.interactiveSpring(response: 0.6, dampingFraction: 0.7, blendDuration: 0.7).delay(currentIndex > index ? 0.1 : 0), value: currentIndex == index)
-                            Text("By \(book.author)")
+                            Text("\(book.title)")
+                                .font(.title3)
+                                .foregroundStyle(.white)
+                                .offset(x: CGFloat(currentIndex) * -(size.width + 30))
+                                .opacity(currentIndex == index ? 1 : 0)
+                                .animation(.interactiveSpring(response: 0.6, dampingFraction: 0.7, blendDuration: 0.7).delay(currentIndex > index ? 0.1 : 0), value: currentIndex == index)
                         }
                         .frame(width: size.width + 30, alignment: .leading)
                     }
